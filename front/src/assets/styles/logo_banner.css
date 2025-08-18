@@ -1,0 +1,29 @@
+@import "./style.css";
+
+#logo{
+    height: 5rem;
+    z-index: 2;
+    display: block;
+    color: var(--white);
+    border-bottom: 0.125rem solid var(--white);
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-right: 1.25rem;
+}
+#logo>#logo-title,#logo-subtitle{
+    font-family: 'Mansalva';
+}
+#logo>img{
+    width:20rem;
+    height: auto;
+}
+
+#logo > img{
+    filter: grayscale(1.0);
+}
+
+#menu:has(.change) ~  #logo > img{
+    filter: grayscale(0.0);
+}

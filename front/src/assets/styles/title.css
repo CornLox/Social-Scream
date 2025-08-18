@@ -1,0 +1,9 @@
+@import "./style.css";
+
+.underline{
+    border-bottom: 0.25rem solid;
+}
+
+.title-txt{
+    font-family: "Mansalva";
+}

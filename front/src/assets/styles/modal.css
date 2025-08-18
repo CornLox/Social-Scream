@@ -1,0 +1,76 @@
+
+.modal-content { padding: 1.5rem; }
+
+/* make the BS5 close icon visible on dark bg */
+.modal-close-btn.btn-close { filter: invert(1); opacity: 1; }
+
+/* image layout */
+.modal-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+/* side-by-side for 2 images on >=768px */
+@media (min-width: 768px) {
+  .modal-images.two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.modal-figure { margin: 0; }
+.modal-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-height: 60vh; /* keep images within viewport */
+}
+
+/* Track list */
+.tracklist {
+  margin: 0 0 1rem 0;
+  padding-left: 1.25rem;     /* space for numbers */
+  display: grid;
+  gap: 0.25rem;              /* vertical spacing between tracks */
+}
+.tracklist .track {
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.modal-extra { margin-top: 0.5rem; line-height: 1.5; opacity: 0.95; }
+
+/* Responsive image grid: 1 column on narrow, auto-fit on wider */
+.modal-images {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+/* On >=768px, lay out as many as fit nicely */
+@media (min-width: 768px) {
+  .modal-images {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+.modal-figure { margin: 0; }
+.modal-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-height: 60vh; /* keep images within viewport */
+}
+
+.modal-store { margin: 0 0 0.75rem 0; }
+.modal-store-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #629aa9;
+}
+.modal-store-link:hover { text-decoration: underline; }

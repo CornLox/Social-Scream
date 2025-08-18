@@ -1,0 +1,27 @@
+@import "./style.css";
+
+
+#ad-section{
+    background-color: var(--white);
+}
+
+.ad-txt > h1{
+    position: relative;
+    top: 13rem;
+    z-index: 1;
+    color: var(--white);
+    font-family: "Mansalva"!important;
+    font-size: 2.5rem;
+}
+
+
+.ad-banner{
+    background-attachment: fixed;
+    height: 20rem;
+    max-height: 1335px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(0.6) contrast(0.8);
+}
+

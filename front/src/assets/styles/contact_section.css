@@ -1,0 +1,44 @@
+@import "./style.css";
+
+#contact-section{
+
+    padding-top: calc(var(--section-space) ) ;
+    background-color: var(--white);
+    
+}
+
+ #contact-section-hr > hr{
+    color: var(--black);
+}
+
+#contact-section-hr{
+    
+    margin-bottom: calc(var(--section-space) / 2 ) ;
+}
+
+.contact-col{
+    padding-bottom: calc(var(--section-space) ) ;
+}
+
+.contact-logo-link{
+    display: contents;
+}
+
+.contact-logo-img{
+    max-width: 10rem!important;
+}
+
+#email-txt{
+    color: var(--dark-blue);
+}
+
+
+
+
+
+
+
+
+
+
+   

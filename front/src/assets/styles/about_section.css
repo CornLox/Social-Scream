@@ -1,0 +1,28 @@
+@import "./style.css";
+
+#about-section{
+    margin-top: var(--section-space);
+    color: var(--white);
+    padding-bottom: calc(var(--section-space) / 2)
+}
+
+#about-section-hr > hr{
+    color: var(--white);
+}
+
+.img-row{
+    margin-top: var(--large-space);
+    padding-top: var(--large-space);
+    padding-bottom: var(--large-space);
+}
+
+
+.txt-col{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+
+
+

@@ -1,0 +1,50 @@
+@import "./style.css";
+
+#banner{
+    height: 100vh!important;
+    max-height: 100vh;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+    left: 1rem;
+    width: 100%;
+    text-align: left!important;
+}
+
+@media only screen and (min-width:768px){
+    .carousel-caption{
+        left: 5.313rem;
+    }
+}
+
+.carousel-caption>h1{
+    font-family: 'Mansalva';
+}
+
+.carouzel-slide{
+    background-color: var(--white)!important;
+    height: 0.375rem!important;
+}
+
+.carousel-inner >.carousel-item>.img-wrapper >img{
+    transition: all 0s ease;
+}
+
+.change >.carousel-item>.img-wrapper >img{
+    filter: brightness(1.2)  grayscale(1.0);
+}
+
+.carousel-item > .img-wrapper{
+    transition: all  3s ease;
+}
+
+.active > .img-wrapper{
+    transform: scale(1.1);
+}
+
+#carousel-banner-inner{
+    max-height: 100vh;
+}
+
