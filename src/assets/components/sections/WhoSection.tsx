@@ -2,9 +2,9 @@ import React from "react";
 import "../../styles/who_section.css";
 import Title from "../parts/Title";
 import who_img1 from "../../images/vlassis.jpg";
-import who_img2 from "../../images/vlassis.jpg";
-import who_img3 from "../../images/vlassis.jpg";
-import who_img4 from "../../images/vlassis.jpg";
+import who_img2 from "../../images/george.jpg";
+import who_img3 from "../../images/jimmy.jpg";
+import who_img4 from "../../images/foivos.jpg";
 
 function WhoSection() {
   return (
@@ -22,7 +22,7 @@ function WhoSection() {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    Vlasis Diamantakos <br /> Vocals - Guitar
+                    Vlasis Diamantakos <br /> Vocals, Guitar
                   </p>
                 </div>
               </div>
@@ -36,7 +36,7 @@ function WhoSection() {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    Vlasis Diamantakos <br /> Vocals - Guitar
+                    George Tzathas <br /> Guitars
                   </p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ function WhoSection() {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    Vlasis Diamantakos <br /> Vocals - Guitar
+                    Dimitris Kouroutis <br /> Bass
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function WhoSection() {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    Vlasis Diamantakos <br /> Vocals - Guitar
+                    Foivos Andrianopoulos <br /> Drums
                   </p>
                 </div>
               </div>

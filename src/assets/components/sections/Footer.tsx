@@ -33,24 +33,24 @@ function Footer() {
                 items={[
                   // socials (open in new tab automatically)
                   {
-                    text: "Instagram @yourband",
-                    href: "https://instagram.com/yourband",
+                    text: "IN @socialscreamofficial",
+                    href: "https://www.instagram.com/socialscreamofficial/",
                   },
                   {
-                    text: "YouTube /yourband",
-                    href: "https://youtube.com/@yourband",
+                    text: "YT @socialscreamgroup",
+                    href: "https://www.youtube.com/@socialscreamgroup",
                   },
                   {
-                    text: "Facebook /yourband",
-                    href: "https://facebook.com/yourband",
+                    text: "FB @SocialScream",
+                    href: "www.facebook.com/SocialScream",
                   },
                   {
-                    text: "Bandcamp yourband.bandcamp.com",
-                    href: "https://yourband.bandcamp.com",
+                    text: "BC @Social-Scream",
+                    href: "https://social-scream.bandcamp.com/",
                   },
                   {
-                    text: "Spotify",
-                    href: "https://open.spotify.com/artist/XXXXXXXXXXXX",
+                    text: "SPOT @SocialScream",
+                    href: "https://open.spotify.com/artist/7lm26XvgzZodwin0fMtgaT?si=VMK6As0zRbCiNbsTXwP98w",
                   },
                 ]}
               />

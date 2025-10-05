@@ -5,6 +5,7 @@
     max-height: 100vh;
 }
 
+
 .carousel-caption{
     position: absolute;
     top: 40%;
@@ -35,6 +36,8 @@
 .change >.carousel-item>.img-wrapper >img{
     filter: brightness(1.2)  grayscale(1.0);
 }
+
+
 
 .carousel-item > .img-wrapper{
     transition: all  3s ease;

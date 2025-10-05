@@ -12,9 +12,14 @@
     position: absolute;
     margin-right: 1.25rem;
 }
+
+
 #logo>#logo-title,#logo-subtitle{
     font-family: 'Mansalva';
 }
+
+
+
 #logo>img{
     width:20rem;
     height: auto;

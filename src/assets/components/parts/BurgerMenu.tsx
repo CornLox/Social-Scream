@@ -37,9 +37,9 @@ function BurgerMenu() {
             <li>
               <a href="#who-section">Composition</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#work-section">Merchandise</a>
-            </li>
+            </li> */}
             <li>
               <a href="#footer">Contact</a>
             </li>

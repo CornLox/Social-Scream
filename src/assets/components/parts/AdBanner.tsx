@@ -1,8 +1,9 @@
 import React from "react";
 import "../../styles/ad_banner.css";
-import ad_slide from "../../images/sat.jpg";
+import ad_slide from "../../images/truth_divider.jpg";
 
-const programme_link = "https://satradio.net/";
+const programme_link =
+  "https://distrokid.com/hyperfollow/socialscream/truth-divider";
 
 const find_us = "";
 

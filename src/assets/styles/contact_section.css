@@ -3,7 +3,7 @@
 #contact-section{
 
     padding-top: calc(var(--section-space) ) ;
-    background-color: var(--white);
+    background-color: var(--grey);
     
 }
 
