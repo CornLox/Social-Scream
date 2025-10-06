@@ -9,10 +9,8 @@ function ContactSection() {
     <>
       <section id="contact-section">
         <div className="container">
+          <Title title="Brothers" hrId="contact-section-hr" />
           <div className="row">
-            <div className="col-lg-12  d-flex mb-4 mb-md-0">
-              <Title title="Brothers" hrId="contact-section-hr" />
-            </div>
             <div className="col-md-6  justify-content-center d-flex mb-4 mb-md-0 contact-col">
               <a
                 target="_blank"
