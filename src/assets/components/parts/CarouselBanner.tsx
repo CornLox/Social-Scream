@@ -1,9 +1,9 @@
 import React from "react";
 import "../../styles/carousel_banner.css";
-import slide1 from "../../images/vlassis1.jpg";
+import slide4 from "../../images/vlassis1.jpg";
 import slide2 from "../../images/vlassis2.jpg";
 import slide3 from "../../images/vlassis3.jpg";
-import slide4 from "../../images/vlassis4.jpg";
+import slide1 from "../../images/vlassis4.jpg";
 
 function CarouzelBanner() {
   return (

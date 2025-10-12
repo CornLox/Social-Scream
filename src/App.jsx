@@ -5,6 +5,7 @@ import LogoBanner from "./assets/components/parts/LogoBanner";
 import BackToTheTop from "./assets/components/parts/BackToTheTop";
 import AboutSection from "./assets/components/sections/AboutSection";
 import HowSection from "./assets/components/sections/HowSection";
+import MerchBanner from "./assets/components/parts/MerchBanner";
 import WhoSection from "./assets/components/sections/WhoSection";
 import AdBanner from "./assets/components/parts/AdBanner";
 import ContactSection from "./assets/components/sections/ContactSection";
@@ -21,6 +22,7 @@ function App() {
       <BackToTheTop />
       <AboutSection />
       <HowSection />
+      <MerchBanner/>
       <WhoSection />
       <AdBanner/>
       <ContactSection />

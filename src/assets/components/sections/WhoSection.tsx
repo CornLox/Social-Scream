@@ -13,7 +13,7 @@ function WhoSection() {
         <div className="container">
           <Title title="Members" hrId="who-section-hr" />
           <div className="row">
-            <div className="col-lg-3 col-md-6 mt-4">
+            <div className="col-md-6 col-lg-3 mt-4">
               <div className="card card-who rounded-0">
                 <img
                   className="card-img-top-who img-fluid rounded-0"
@@ -27,7 +27,7 @@ function WhoSection() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mt-4">
+            <div className="col-md-6 col-lg-3 mt-4">
               <div className="card card-who rounded-0">
                 <img
                   className="card-img-top-who img-fluid rounded-0"
@@ -41,7 +41,7 @@ function WhoSection() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mt-4">
+            <div className="col-md-6 col-lg-3 mt-4">
               <div className="card card-who rounded-0">
                 <img
                   className="card-img-top-who img-fluid rounded-0"
@@ -55,7 +55,7 @@ function WhoSection() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mt-4">
+            <div className="col-md-6 col-lg-3 mt-4">
               <div className="card card-who rounded-0">
                 <img
                   className="card-img-top-who img-fluid rounded-0"

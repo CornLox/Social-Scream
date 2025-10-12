@@ -1,8 +1,15 @@
 
 .modal-content { padding: 1.5rem; }
 
-/* make the BS5 close icon visible on dark bg */
-.modal-close-btn.btn-close { filter: invert(1); opacity: 1; }
+
+.modal-close-btn.btn-close { 
+  opacity: 1; 
+  border:none!important;
+  border-radius: none!important;
+  outline: 0!important;
+  box-shadow: none!important;
+}
+  
 
 /* image layout */
 .modal-images {

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/ad_banner.css";
-import ad_slide from "../../images/truth_divider.jpg";
+import ad_slide from "../../images/truth_divider_banner.jpg";
 
 const programme_link =
   "https://distrokid.com/hyperfollow/socialscream/truth-divider";

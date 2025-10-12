@@ -7,6 +7,9 @@ import how_img2 from "../../images/initiation-to-the-myths.jpg";
 import how_img3 from "../../images/organic-mindset.jpg";
 import how_img4 from "../../images/deinon-esti.jpg";
 import how_img5 from "../../images/from-ashes-to-hope.jpg";
+import how_img6 from "../../images/truth_divider.jpg";
+import how_img7 from "../../images/life_remains.jpg";
+import how_img8 from "../../images/in_dispute.jpg";
 
 // while modal is active
 function makeBright(el: HTMLElement) {
@@ -20,7 +23,7 @@ function HowSection() {
         <div className="container">
           <Title title="Discography" hrId="how-section-hr" />
           <div className="row justify-content-md-center">
-            <div className="col-lg-4 mt-4">
+            <div className="col-md-6 col-lg-4 mt-4">
               <Modal
                 modal_id="how_img1"
                 modal_title="Epiclesis"
@@ -52,7 +55,7 @@ function HowSection() {
                 <h2 className="disc-title">Epiclesis</h2>
               </div>
             </div>
-            <div className="col-lg-4 mt-4">
+            <div className="col-md-6 col-lg-4 mt-4">
               <Modal
                 modal_id="how_img2"
                 modal_title="Initiation to the Myths"
@@ -88,7 +91,55 @@ function HowSection() {
                 <h2 className="disc-title">Initiation to the Myths</h2>
               </div>
             </div>
-            <div className="col-lg-4 mt-4">
+            <div className="col-md-6 col-lg-4 mt-4">
+              <Modal
+                modal_id="how_img6"
+                modal_title="Truth Divider"
+                modal_list={["Truth Divider  03:57"]}
+                modal_txt="Single released in 2019."
+                modal_img_front={how_img6}
+                modal_img_back={""}
+                modal_link="https://social-scream.bandcamp.com/album/truth-divider-2019-single"
+              />
+              <div
+                onClick={(e) => makeBright(e.currentTarget)}
+                className="card card-how rounded-0"
+              >
+                <img
+                  className="card-img-top-how img-fluid rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#how_img6-modal"
+                  src={how_img6}
+                  alt="Card image cap"
+                />
+                <h2 className="disc-title">Truth Divider</h2>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4 mt-4">
+              <Modal
+                modal_id="how_img7"
+                modal_title="Life Remains"
+                modal_list={["Life Remains 06:05"]}
+                modal_txt="Single released in 2020."
+                modal_img_front={how_img7}
+                modal_img_back={""}
+                modal_link="https://social-scream.bandcamp.com/album/life-remains-2020-single"
+              />
+              <div
+                onClick={(e) => makeBright(e.currentTarget)}
+                className="card card-how rounded-0"
+              >
+                <img
+                  className="card-img-top-how img-fluid rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#how_img7-modal"
+                  src={how_img7}
+                  alt="Card image cap"
+                />
+                <h2 className="disc-title">Life Remains</h2>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4 mt-4">
               <Modal
                 modal_id="how_img3"
                 modal_title="Organic Mindset"
@@ -123,7 +174,74 @@ function HowSection() {
                 <h2 className="disc-title">Organic Mindset</h2>
               </div>
             </div>
-            <div className="col-lg-4 mt-4">
+            <div className="col-md-6 col-lg-4 mt-4">
+              <Modal
+                modal_id="how_img5"
+                modal_title="From Ashes To Hope"
+                modal_list={[
+                  "Spartan Blood 04:06",
+                  "Faith 04:15",
+                  "Social Scream 04:35",
+                  "Smell the Demon 06:10",
+                  "DNA Eternal 05:21",
+                  "Where the Storm Goes 08:51",
+                  "Blacksmith 04:59",
+                  "New Era 03:36",
+                  "Rainbow of Souls 01:50",
+                  "Metal Retaliation 02:53",
+                  "Prison of Freedom 05:50",
+                  "List of Sins 04:26",
+                  "Wolf Karma 05:23",
+                  "No Faces Reflected 06:19",
+                  "Unblood 05:37",
+                  "Initiation to the Myths 06:33",
+                  "Life Remains 06:05",
+                  "From Ashes to Hope 04:03",
+                ]}
+                modal_txt="From Ashes to Hope by Social Scream is a 2-CD compilation featuring re-recorded versions of the band's demo tracks and songs from their first two albums, Epiclesis and Initiation to the Myths. The album was released in 2021."
+                modal_img_front={how_img5}
+                modal_img_back={""}
+                modal_link="https://social-scream.bandcamp.com/album/from-ashes-to-hope-double-album"
+              />
+              <div
+                onClick={(e) => makeBright(e.currentTarget)}
+                className="card card-how rounded-0"
+              >
+                <img
+                  className="card-img-top-how img-fluid rounded-0"
+                  src={how_img5}
+                  data-bs-toggle="modal"
+                  data-bs-target="#how_img5-modal"
+                  alt="Card image cap"
+                />
+                <h2 className="disc-title">From Ashes To Hope</h2>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4 mt-4">
+              <Modal
+                modal_id="how_img8"
+                modal_title="In Dispute"
+                modal_list={["In Dispute 04:20"]}
+                modal_txt="Single released in 2021."
+                modal_img_front={how_img8}
+                modal_img_back={""}
+                modal_link="https://social-scream.bandcamp.com/track/in-dispute-2021-single"
+              />
+              <div
+                onClick={(e) => makeBright(e.currentTarget)}
+                className="card card-how rounded-0"
+              >
+                <img
+                  className="card-img-top-how img-fluid rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#how_img8-modal"
+                  src={how_img8}
+                  alt="Card image cap"
+                />
+                <h2 className="disc-title">In Dispute</h2>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4 mt-4">
               <Modal
                 modal_id="how_img4"
                 modal_title="Deinon Esti"
@@ -154,49 +272,6 @@ function HowSection() {
                   alt="Card image cap"
                 />
                 <h2 className="disc-title">Deinon Esti</h2>
-              </div>
-            </div>
-            <div className="col-lg-4 mt-4">
-              <Modal
-                modal_id="how_img5"
-                modal_title="From Ashes To Hope"
-                modal_list={[
-                  "Spartan Blood 04:06",
-                  "Faith 04:15",
-                  "Social Scream 04:35",
-                  "Smell the Demon 06:10",
-                  "DNA Eternal 05:21",
-                  "Where the Storm Goes 08:51",
-                  "Blacksmith 04:59",
-                  "New Era 03:36",
-                  "Rainbow of Souls 01:50",
-                  "Metal Retaliation 02:53",
-                  "Prison of Freedom 05:50",
-                  "List of Sins 04:26",
-                  "Wolf Karma 05:23",
-                  "No Faces Reflected 06:19",
-                  "Unblood 05:37",
-                  "Initiation to the Myths 06:33",
-                  "Life Remains 06:05",
-                  "From Ashes to Hope 04:03",
-                ]}
-                modal_txt="The album was released in 2021."
-                modal_img_front={how_img5}
-                modal_img_back={""}
-                modal_link="https://social-scream.bandcamp.com/album/from-ashes-to-hope-double-album"
-              />
-              <div
-                onClick={(e) => makeBright(e.currentTarget)}
-                className="card card-how rounded-0"
-              >
-                <img
-                  className="card-img-top-how img-fluid rounded-0"
-                  src={how_img5}
-                  data-bs-toggle="modal"
-                  data-bs-target="#how_img5-modal"
-                  alt="Card image cap"
-                />
-                <h2 className="disc-title">From Ashes To Hope</h2>
               </div>
             </div>
           </div>
