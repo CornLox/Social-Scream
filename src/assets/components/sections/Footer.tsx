@@ -19,13 +19,35 @@ function Footer() {
           </svg>
         </div> */}
         <div className="container">
-          <div className="row justify-content-around mb-4">
+          <div className="row justify-content-around mb-5">
             <div className="col-12 justify-content-center justify-content-md-start d-flex pb-3 pb-md-0 ">
               <a href="./">
                 <img src={footerLogo} alt="" className="footer-logo-img" />
                 <h2 id="footer-logo-title"></h2>
                 <h4 id="footer-logo-subtitle"></h4>
               </a>
+            </div>
+
+            <div className="col-12 col-md-4 col-lg-4 flex-column d-flex">
+              <ContactList
+                title="Contact"
+                items={[
+                  // socials (open in new tab automatically)
+                  {
+                    text: "BC @Social-Scream",
+                    href: "https://social-scream.bandcamp.com/",
+                  },
+                  {
+                    text: "SPOT @SocialScream",
+                    href: "https://open.spotify.com/artist/7lm26XvgzZodwin0fMtgaT?si=VMK6As0zRbCiNbsTXwP98w",
+                  },
+
+                  {
+                    text: "YT @socialscreamgroup",
+                    href: "https://www.youtube.com/@socialscreamgroup",
+                  },
+                ]}
+              />
             </div>
             <div className="col-12 col-md-4 col-lg-4 flex-column d-flex">
               <ContactList
@@ -44,27 +66,6 @@ function Footer() {
                   {
                     text: "X socialscream_gr",
                     href: "https://x.com/socialscream_gr/",
-                  },
-                ]}
-              />
-            </div>
-            <div className="col-12 col-md-4 col-lg-4 flex-column d-flex">
-              <ContactList
-                title="Contact"
-                items={[
-                  // socials (open in new tab automatically)
-                  {
-                    text: "BC @Social-Scream",
-                    href: "https://social-scream.bandcamp.com/",
-                  },
-                  {
-                    text: "SPOT @SocialScream",
-                    href: "https://open.spotify.com/artist/7lm26XvgzZodwin0fMtgaT?si=VMK6As0zRbCiNbsTXwP98w",
-                  },
-
-                  {
-                    text: "YT @socialscreamgroup",
-                    href: "https://www.youtube.com/@socialscreamgroup",
                   },
                 ]}
               />
