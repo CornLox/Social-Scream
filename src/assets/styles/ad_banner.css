@@ -12,6 +12,11 @@
     color: var(--white);
     font-family: "Mansalva"!important;
     font-size: 2.5rem;
+    text-align: right;
+}
+
+.ad-txt.container{
+    height: 0px;
 }
 
 

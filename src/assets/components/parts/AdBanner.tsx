@@ -1,11 +1,11 @@
 import React from "react";
 import "../../styles/ad_banner.css";
-import ad_slide from "../../images/truth_divider_banner.jpg";
+import ad_slide from "../../images/unified.jpg";
 
 const programme_link =
-  "https://distrokid.com/hyperfollow/socialscream/truth-divider";
+  "https://www.youtube.com/watch?v=QMcPSQ2o-gA&list=RDQMcPSQ2o-gA&start_radio=1";
 
-const find_us = "";
+const find_us = "The Unified Field - Official Video Out Now";
 
 function ΑdBanner() {
   return (
