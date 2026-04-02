@@ -22,7 +22,7 @@
 
 .ad-banner{
     background-attachment: fixed;
-    height: 20rem;
+    height: 20rem!important;
     max-height: 1335px;
     background-position: center;
     background-repeat: no-repeat;
