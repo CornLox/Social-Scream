@@ -1,13 +1,13 @@
 import React from "react";
 import "../../styles/ad_banner.css";
-import ad_slide from "../../images/unified.jpg";
 
-const programme_link =
-  "https://www.youtube.com/watch?v=QMcPSQ2o-gA&list=RDQMcPSQ2o-gA&start_radio=1";
+interface Props {
+  programme_link: string;
+  programme_img: string;
+  find_us: string;
+}
 
-const find_us = "The Unified Field - Official Video Out Now";
-
-function ΑdBanner() {
+function ΑdBanner({ programme_link, programme_img, find_us }: Props) {
   return (
     <>
       <div id="ad-section">
@@ -18,7 +18,7 @@ function ΑdBanner() {
 
           <div
             className="container-fluid ad-banner"
-            style={{ backgroundImage: "url(" + ad_slide + ")" }}
+            style={{ backgroundImage: "url(" + programme_img + ")" }}
           ></div>
         </a>
       </div>
