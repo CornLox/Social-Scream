@@ -18,7 +18,11 @@ import album_slide from "./assets/images/transformation.jpg";
 const video_link =
   "https://www.youtube.com/watch?v=QMcPSQ2o-gA&list=RDQMcPSQ2o-gA&start_radio=1";
 
+
+
 const video_out = "The Unified Field - Official Video";
+
+const album_link = "https://www.rockattitude.gr/en/social-scream-neo-album-setup-to-transformation-proto-single-the-unified-field/";
 
 function App() {
 
@@ -29,7 +33,7 @@ function App() {
       <LogoBanner />
       <BackToTheTop />
       <AboutSection />
-      <AdBanner programme_link="" programme_img={album_slide} find_us=""/>
+      <AdBanner programme_link={album_link} programme_img={album_slide} find_us=""/>
       <HowSection />
       <MerchBanner/>
       <WhoSection />
