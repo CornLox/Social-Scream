@@ -10,6 +10,7 @@ import how_img5 from "../../images/from-ashes-to-hope.jpg";
 import how_img6 from "../../images/truth_divider.jpg";
 import how_img7 from "../../images/life_remains.jpg";
 import how_img8 from "../../images/in_dispute.jpg";
+import how_img9 from "../../images/setup_to_transformation.jpg";
 
 // while modal is active
 function makeBright(el: HTMLElement) {
@@ -70,7 +71,7 @@ function HowSection() {
                   "Life Remains 06:05",
                   "Unblood 05:37",
                   "Initiation to the Myths 06:33",
-                  "From Ashes To Hope 04:02",
+                  "From Ashes to Hope 04:02",
                 ]}
                 modal_txt="Initiation to the Myths is the second studio album by the Greek heavy metal band Social Scream, released on June 3, 2018."
                 modal_img_front={how_img2}
@@ -214,7 +215,7 @@ function HowSection() {
                   data-bs-target="#how_img5-modal"
                   alt="Card image cap"
                 />
-                <h2 className="disc-title">From Ashes To Hope</h2>
+                <h2 className="disc-title">From Ashes to Hope</h2>
               </div>
             </div>
             <div className="col-md-6 col-lg-4 mt-4">
@@ -272,6 +273,44 @@ function HowSection() {
                   alt="Card image cap"
                 />
                 <h2 className="disc-title">Deinon Esti</h2>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4 mt-4">
+              <Modal
+                modal_id="how_img9"
+                modal_title="Setup to Transformation"
+                modal_list={[
+                  "Catalesis 04:51",
+                  "Catharsis 04:30",
+                  "Ensynesthesis 05:08",
+                  "Paraclesis 04:16",
+                  "Regenesis 04:25",
+                  "Parallel Vision 05:03",
+                  "Now Command 03:38",
+                  "Soul Catcher 05:37",
+                  "The United Field 07:23",
+                  "A Timeless Framework Of Existence 05:38",
+                ]}
+                modal_txt="Experience the intensity of 'Setupt to Transformation'.
+                  A Heavy Metal album that captures the raw energy, complex rhythms and dark psychological themes that define Social Scream at it's peak.
+                  From explosive riffs to hypnotic transitions 'Setup to Transformation' pulls you into a world where every beat, every pause and every moment feels calculated yet chaotic.
+                  It's an invitation to all metalheads."
+                modal_img_front={how_img9}
+                modal_img_back={""}
+                modal_link="https://social-scream.bandcamp.com/album/setup-to-transformation"
+              />
+              <div
+                onClick={(e) => makeBright(e.currentTarget)}
+                className="card card-how rounded-0"
+              >
+                <img
+                  className="card-img-top-how img-fluid rounded-0"
+                  src={how_img9}
+                  data-bs-toggle="modal"
+                  data-bs-target="#how_img9-modal"
+                  alt="Card image cap"
+                />
+                <h2 className="disc-title">Setup to Transformation</h2>
               </div>
             </div>
           </div>
