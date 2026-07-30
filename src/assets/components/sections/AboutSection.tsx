@@ -3,6 +3,7 @@ import "../../styles/about_section.css";
 import Title from "../parts/Title";
 import band1 from "../../images/band1.jpg";
 import band2 from "../../images/band2.jpg";
+import band3 from "../../images/social-scream-logo.jpg";
 
 function AboutSection() {
   return (
@@ -24,7 +25,7 @@ function AboutSection() {
                 and self-releasing the debut album "Epiclesis" in June 2014.
               </p>
               <p>
-                The release of ''Epiclesis'' was followed by a release party and
+                The release of "Epiclesis" was followed by a release party and
                 two headline shows at Athens and Sparta. It also marked the
                 partnership with New Dream Records who digitally distributed
                 Epiclesis and also released band's 2nd album “Initiation To The
@@ -42,7 +43,7 @@ function AboutSection() {
                 Divider” from the upcoming album “Organic Mindset” which was
                 released in March 2020 by Heart Of Steel Records. The album
                 gaining great feedback from both press and fans and introduced
-                Social Scream to a larger audience. Durring that year, the
+                Social Scream to a larger audience. Durring the same year, the
                 global pandemic cancelled all band's live activity. As a result
                 the band was focused on studio work and tried to be in touch
                 with the metal community via playthrough videos and live
@@ -63,6 +64,20 @@ function AboutSection() {
             </div>
             <div className="offset-lg-1 d-none d-lg-block col-5" id="band2-col">
               <img className="img-fluid" src={band2} alt="" />
+            </div>
+            <div className="d-none d-lg-block col-5" id="band1-col">
+              <img className="img-fluid" src={band3} alt="" />
+            </div>
+            <div className="offset-lg-1 col-lg-6 z-1 z-lg-0 align-self-center txt-col">
+              <p>
+                On June 19, 2026, Social Scream return stronger, darker, and
+                more determined than ever, announcing their new album, " Setup
+                To Transformation " — a work that offers a complete
+                transformative experience while capturing the band's identity at
+                its very peak. The album seamlessly combines explosive riffs,
+                intricate rhythmic structures, and dark, psychological themes,
+                delivering the quintessential Social Scream sound.
+              </p>
             </div>
           </div>
         </div>
