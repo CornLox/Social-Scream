@@ -8,7 +8,7 @@ function LogoBanner() {
       <a
         href="./"
         id="logo"
-        className="w-100 d-flex justify-content-end justify-content-md-center"
+        className="w-100 d-flex justify-content-end justify-content-sm-center"
       >
         <img alt="Alternative text" src={logo} />
         <h2 id="logo-title"></h2>
