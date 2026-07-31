@@ -5,7 +5,11 @@ import logo from "..//..//images//social-scream-logo-color.png";
 function LogoBanner() {
   return (
     <>
-      <a href="./" id="logo" className="w-100">
+      <a
+        href="./"
+        id="logo"
+        className="w-100 d-flex justify-content-end justify-content-md-center"
+      >
         <img alt="Alternative text" src={logo} />
         <h2 id="logo-title"></h2>
         <h4 id="logo-subtitle"></h4>
