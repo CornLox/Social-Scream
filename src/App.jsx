@@ -22,7 +22,7 @@ const video_link =
 
 const video_out = "The Unified Field - Official Video";
 
-const album_link = "https://www.rockattitude.gr/en/social-scream-neo-album-setup-to-transformation-proto-single-the-unified-field/";
+const album_link = "https://moshville.co.uk/news/2026/07/social-scream-unleash-ambitious-concept-album-setup-to-transformation/";
 
 function App() {
 
