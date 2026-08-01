@@ -297,8 +297,7 @@ function HowSection() {
                   "The United Field 07:23",
                   "A Timeless Framework Of Existence 05:38",
                 ]}
-                modal_txt="Experience the intensity of 'Setupt to Transformation'.
-                  A Heavy Metal album that captures the raw energy, complex rhythms and dark psychological themes that define Social Scream at it's peak.
+                modal_txt="A Heavy Metal album that captures the raw energy, complex rhythms and dark psychological themes that define Social Scream at it's peak.
                   From explosive riffs to hypnotic transitions 'Setup to Transformation' pulls you into a world where every beat, every pause and every moment feels calculated yet chaotic.
                   It's an invitation to all metalheads."
                 modal_img_front={how_img9}
