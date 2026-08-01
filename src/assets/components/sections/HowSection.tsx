@@ -53,7 +53,9 @@ function HowSection() {
                   data-bs-target="#how_img1-modal"
                   alt="Card image cap"
                 />
-                <h2 className="disc-title">Epiclesis</h2>
+                <h2 className="disc-title" style={{ color: "white" }}>
+                  Epiclesis
+                </h2>
               </div>
             </div>
             <div className="col-md-6 col-lg-4 mt-4">
@@ -137,7 +139,9 @@ function HowSection() {
                   src={how_img7}
                   alt="Card image cap"
                 />
-                <h2 className="disc-title">Life Remains</h2>
+                <h2 className="disc-title" style={{ color: "white" }}>
+                  Life Remains
+                </h2>
               </div>
             </div>
             <div className="col-md-6 col-lg-4 mt-4">
@@ -239,7 +243,9 @@ function HowSection() {
                   src={how_img8}
                   alt="Card image cap"
                 />
-                <h2 className="disc-title">In Dispute</h2>
+                <h2 className="disc-title" style={{ color: "white" }}>
+                  In Dispute
+                </h2>
               </div>
             </div>
             <div className="col-md-6 col-lg-4 mt-4">
@@ -310,7 +316,9 @@ function HowSection() {
                   data-bs-target="#how_img9-modal"
                   alt="Card image cap"
                 />
-                <h2 className="disc-title">Setup to Transformation</h2>
+                <h2 className="disc-title" style={{ color: "white" }}>
+                  Setup to Transformation
+                </h2>
               </div>
             </div>
           </div>
